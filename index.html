@@ -1,0 +1,966 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Designer a Personal Category Bootstrap Responsive Template | Home :: w3layouts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Designer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- Custom Theme files -->
+	<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+	<!--gallery -->
+	<link type="text/css" rel="stylesheet" href="css/cm-overlay.css" />
+	<!-- //gallery -->
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- font-awesome icons -->
+	<!--//Custom Theme files-->
+	<!-- js -->
+	<script src="js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!-- web-fonts -->
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Arsenal:400,400i,700,700i" rel="stylesheet">
+	<!-- //web-fonts -->
+</head>
+
+<body>
+	<!-- banner -->
+	<div id="home" class="banner">
+		<div class="banner-agileinfo">
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+					<div class="menu">
+						<a href="" id="menuToggle"> <span class="navClosed"></span> </a>
+						<nav>
+							<a href="#home" class="active scroll">Home</a>
+							<a href="#about" class="scroll">About Me</a>
+							<a href="#skills" class="scroll">Skills</a>
+							<a href="#gallery" class="scroll">My Work</a>
+							<!-- <a href="#services" class="scroll">Services</a> -->
+							<!-- <a href="#contact" class="scroll">Contact</a> -->
+						</nav>
+						<script>
+							(function ($) {
+								// Menu Functions
+								$(document).ready(function () {
+									$('#menuToggle').click(function (e) {
+										var $parent = $(this).parent('.menu');
+										$parent.toggleClass("open");
+										var navState = $parent.hasClass('open') ? "hide" : "show";
+										$(this).attr("title", navState + " navigation");
+										// Set the timeout to the animation length in the CSS.
+										setTimeout(function () {
+											console.log("timeout set");
+											$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+										}, 200);
+										e.preventDefault();
+									});
+								});
+							})(jQuery);
+						</script>
+
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!-- //header -->
+			<div class="banner-text">
+				<div class="container">
+					<div class = 'demo'>
+					<h1><a href="index.html">Xue Bai (Snow)</a></h1>
+					</div>
+					<h2 class="w3ls-bnrtext">Landscape Architect</h2>
+					<p class="w3ls-p">"Success is often achieved by those who don’t know that failure is inevitable."</p>
+					<a href="#about" class="buy btn-wayra scroll">Explore my work</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="agile-about w3ls-section text-center" id="about">
+		<div class="container">
+			<h3 class="agileits-title">about me</h3>
+			<div class="agileits-about-grid">
+				<p>xxx</p>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- about-bottom -->
+	<div class="agileits-about-btm">
+		<div class="container">
+			<div class="w3-flex">
+			<div class="col-md-4 col-sm-4 col-xs-12 ab1 agileits-about-grid1">
+				<span class="fa fa-trophy" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Scholarship</h4>
+				<p>2017  &nbsp;  &nbsp;Outstanding Academic Scholarship</p>
+                <p>2017  &nbsp;  &nbsp;Liang-Xi Scholarship for Talented Student</p>
+                <p>2016  &nbsp;  &nbsp;Top Scholarship for Freshman</p>
+                <p>2016  &nbsp;  &nbsp;First class scholarship for excellent students</p>
+                <p>2015  &nbsp;  &nbsp;First class scholarship for excellent students</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid2">
+				<span class="fa fa-graduation-cap  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">education</h4>
+				<h5>2014-2019  &nbsp;  &nbsp;  &nbsp;Bachelor of Engineering</h5>
+				<p>Beijing Forestry University, Landscape Architecture</p>
+				<p>Average Score:  90.01</p>
+				<h5>2011-1014  &nbsp;  &nbsp;  &nbsp;Senior High School</h5>
+				<p>Hangzhou No.2 High School</p>
+			</div>
+			<div class="col-md-4 col-sm-4 ab1 agileits-about-grid3">
+				<span class="fa fa-shield  wthree-title-list" aria-hidden="true"></span>
+				<h4 class="agileinfo-head">Competition</h4>
+				<p>2017  &nbsp;  &nbsp;Honorable Mention for Beijing Building Contest</p>
+                <p>2016  &nbsp;  &nbsp;Third Prize for Beijing Greening Design Contest</p>
+                <p>2016  &nbsp;  &nbsp;Second Prize in the Beijing Negotiation Contest</p>
+                <p>2015  &nbsp;  &nbsp;First Prize for the National Dance Competition</p>
+                <p>2016  &nbsp;  &nbsp;Third award for Beijing Greening Design Contest</p>
+                
+			</div>
+			<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //about-bottom -->
+	<!-- skills -->
+	<div class="agile-service w3ls-section" id="skills">
+		<div class="container">
+			<div class="col-md-5 w3_agileits-service-left">
+				<h3 class="agileits-title">Experience</h3>
+				<p>yyy</p>
+			</div>
+			<div class="col-md-7 skills-right">
+				<div class="vertical-skills  pull-right xs-center">
+					<ul class="list-inline">
+						<li>
+							<div class="skill" style="height:85%; background:#ff9d0d;"><span class="value">85%</span></div><span class="title">PS</span></li>
+						<li>
+							<div class="skill" style="height:80%; background:#03a9f4;"><span class="value">80%</span></div><span class="title">AutoCAD</span></li>
+						<li>
+							<div class="skill" style="height:75%; background:#b32eca;"><span class="value">75%</span></div><span class="title">SketchUp</span></li>
+						<li>
+							<div class="skill" style="height:75%; background:#009688;"><span class="value">75%</span></div><span class="title">InDesign</span></li>
+						<li>
+							<div class="skill" style="height:70%; background:#6361f0;"><span class="value">70%</span></div><span class="title">HTML</span></li>
+
+					</ul>
+				</div>
+				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<div class="w3ls-section agileits-gallery" id="gallery">
+		<div class="container">
+			<h3 class="agileits-title">My work</h3>
+			<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+				<ul id="myTab" class="nav nav-tabs" role="tablist">
+					<li role="presentation" class="active"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning" aria-expanded="true">Design</a></li>
+					<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Photography</a></li>
+					<li role="presentation"><a href="#sketch" role="tab" id="sketch-tab" data-toggle="tab" aria-controls="painting">Sketch</a></li>
+					<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Painting</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade in active" id="learning" aria-labelledby="learning-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_1.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_1.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Balcony Design for the Elderly</h5>
+									<p>Golden Faith</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_2.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_2.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Gallery Garden Design</h5>
+									<p>Cycle and Fancy</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_3.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_3.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Urban Green Space Construction</h5>
+									<p>Breath of the Green Vein</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_4.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_4.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Folding Art Gallery</h5>
+									<p>Space Perception Training</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_7.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_7.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Growing Art Museum</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_8.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_8.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Impression of the West Lake</h5>
+									<p>Color Design on Hometown</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_9.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_9.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>The Progress of Growing</h5>
+									<p>Flower Path Design</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_10.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_10.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Pilgrimage to Phoenix</h5>
+									<p>Parterre Design</p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_11.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_11.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>The analysis of Villa d'Este</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_13.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_13.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Stereoscopic composition</h5>
+									<p></p>
+								</div>
+							</div>
+							
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_5.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_5.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Functional Greenbelt Design</h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_12.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_12.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>Beethoven's Ninth Symphony——Faith</h5>
+									<p>Color Box Design</p>
+								</div>
+							</div>
+
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/design/d_14.jpg">
+										<figure class="img_bot"><img src="images/design/rsd_14.jpg" alt=" " class="img-responsive" />
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5>The first Bloom of Lotus</h5>
+									<p>Plaza Design</p>
+								</div>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_1.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_1.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_2.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_2.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_3.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_3.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_4.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_4.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_5.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_5.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_6.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_6.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_7.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_7.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/photograph/p_9.jpg">
+										<figure class="img_bot"><img src="images/photograph/rsp_9.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="sketch" aria-labelledby="sketch-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_1.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_1.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_2.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_2.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_3.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_3.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_4.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_4.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_5.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_5.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_6.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_6.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_7.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_7.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_8.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_8.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_9.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_9.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_10.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_10.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_11.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_11.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_12.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_12.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/sketch/t_13.jpg">
+										<figure class="img_bot"><img src="images/sketch/rst_13.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+
+							
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
+						<div class="w3_tab_img">
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_1.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_1.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p> </p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_2.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_2.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_3.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_3.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_4.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_4.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_5.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_5.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_6.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_6.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_7.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_7.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_8.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_8.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_9.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_9.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_10.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_10.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_11.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_11.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_12.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_12.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_13.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_13.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_14.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_14.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							<div class="col-sm-3 w3_tab_img_left">
+								<div class="demo">
+									<a class="cm-overlay" href="images/painting/p_15.jpg">
+										<figure class="img_bot"><img src="images/painting/rsp_15.jpg" alt=" " class="img-responsive">
+										</figure>
+									</a>
+								</div>
+								<div class="agile-gallery-info">
+									<h5></h5>
+									<p></p>
+								</div>
+							</div>
+							
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.tools.min.js"></script>
+		<script src="js/jquery.mobile.custom.min.js"></script>
+		<script src="js/jquery.cm-overlay.js"></script>
+		<script>
+			$(document).ready(function () {
+				$('.cm-overlay').cmOverlay();
+			});
+		</script>
+	</div>
+	<!-- //menu -->
+
+	<!-- services
+	<div class="w3ls-section services" id="services">
+		<div class="container">
+			<h3 class="agileits-title text-center">services</h3>
+			<div class="services-w3ls-row agileits-w3layouts service1 text-center">
+				<h5>web design</h5>
+				<p>Tenetur a sapiente itaque earum rerum hic delectus maiores alias phasellus.</p>
+				<div class="s-top">
+					<span class="fa fa-laptop" aria-hidden="true"></span>
+				</div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts middlegrid-w3ls">
+				<div class="col-md-4 services-grid agileits-w3layouts service2">
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>ui design</h5>
+						<p>Tenetur a sapiente itaque earum rerum hic delectus maiores alias phasellus.</p>
+					</div>
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-caret-square-o-up" aria-hidden="true"></span>
+					</div>
+				</div>
+				<div class="col-md-4 services-grid img-agileits">
+					<img src="images/services.jpg" class="img-responsive" alt="" />
+				</div>
+				<div class="col-md-4 services-grid agileits-w3layouts service3">
+					<div class="col-md-2 sub-icon">
+						<span class="fa fa-grav" aria-hidden="true"></span>
+					</div>
+					<div class="col-md-10 w3ls-sub-text">
+						<h5>graphic design</h5>
+						<p>Tenetur a sapiente itaque earum rerum hic delectus maiores alias phasellus.</p>																	
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="services-w3ls-row agileits-w3layouts service4">
+				<div class="s-top">
+					<span class="fa fa-adjust" aria-hidden="true"></span>
+				</div>
+				<h5>seo</h5>
+				<p>Tenetur a sapiente itaque earum rerum hic delectus maiores alias phasellus.</p>
+			</div>
+		</div>
+	</div>
+	//services -->
+
+	<div class="contact-w3-agileits w3ls-section" id="contact" >
+		<div class="container contact_container">
+			<h3 class="agileits-title cont-w3l">Feel free to contact me</h3>
+			<div class="contact-main-w3ls">
+				<div class="col-md-6  contact-left-w3ls">
+					<div class="mail contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Email</h4>
+						</div>
+						<div class="col-md-8  col-sm-8 col-xs-8 contact-text-agileinfo">
+							<a href="mailto:info@example.com">541888673@qq.com</a>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="call contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Phone</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>17801059808</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Address</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<p>No. 35 Qinghua East Road<br> Haidian District, Beijing</p>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="visit wthree-social-icons contact-grid-agileinfo">
+						<div class="col-md-4 col-sm-4 col-xs-4 contact-icon-wthree">
+							<h4>Follow me</h4>
+						</div>
+						<div class="col-md-8 col-sm-8 col-xs-8 contact-text-agileinfo">
+							<ul class="w3-links">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="contact-main">
+					<div class="col-md-6 agileits-main-right">
+						<form action="#" method="post" class="agile_form">
+							<label class="header">Name</label>
+							<div class="icon1 w3ls-name1">
+								<input placeholder=" " name="first name" type="text" required="">
+							</div>
+							<div class="icon2">
+								<label class="header">Email</label>
+								<input placeholder=" " name="Email" type="email" required="">
+							</div>
+							<label class="header">your message</label>
+							<textarea class="w3l_summary" required=""></textarea>
+							<input type="submit" value="SEND">
+						</form>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="agileits_w3layouts-footer">
+		<p>© 2017 Xue Bai | Powered by <a href="http://w3layouts.com"> W3layouts.</a></p>
+	</div>
+	<!-- start-smooth-scrolling -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 1000);
+			});
+		});
+	</script>
+	<!-- //end-smooth-scrolling -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+<script type="text/javascript" src="js/SmoothScroll.min.js"></script>
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
